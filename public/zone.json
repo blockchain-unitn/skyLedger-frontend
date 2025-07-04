@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "Hospital Zone",
+      "zoneType": "HOSPITALS",
+      "boundaries": [
+        { "latitude": 45.4641, "longitude": 9.1919 },
+        { "latitude": 45.4650, "longitude": 9.1925 },
+        { "latitude": 45.4650, "longitude": 9.1900 },
+        { "latitude": 45.4641, "longitude": 9.1900 }
+      ],
+      "maxAltitude": 300,
+      "minAltitude": 0,
+      "isActive": true,
+      "description": "No-fly zone around hospital area",
+      "createdAt": 1751545420,
+      "updatedAt": 1751545420
+    },
+    {
+      "id": 2,
+      "name": "Airport Zone",
+      "zoneType": "RURAL",
+      "boundaries": [
+        { "latitude": 45.6301, "longitude": 8.7237 },
+        { "latitude": 45.6310, "longitude": 8.7250 },
+        { "latitude": 45.6290, "longitude": 8.7250 },
+        { "latitude": 45.6290, "longitude": 8.7237 }
+      ],
+      "maxAltitude": 500,
+      "minAltitude": 0,
+      "isActive": true,
+      "description": "No-fly zone around Malpensa airport area",
+      "createdAt": 1751545521,
+      "updatedAt": 1751545521
+    }
+  ],
+  "count": 2
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "serialNumber": "DRN-000",
+    "model": "DJI Matrice 300",
+    "droneType": "cargo",
+    "certHashes": [
+      "QmXabc123...",
+      "QmXdef456..."
+    ],
+    "permittedZones": ["URBAN", "HOSPITALS"],
+    "ownerHistory": [
+      "0xAbc123...",
+      "0xDef456..."
+    ],
+    "maintenanceHash": "QmMaintHash123...",
+    "status": "active"
+  },
+  {
+    "serialNumber": "DRN-001",
+    "model": "Parrot Anafi USA",
+    "droneType": "surveillance",
+    "certHashes": [
+      "QmXghi789..."
+    ],
+    "permittedZones": ["RESTRICTED", "MILITARY"],
+    "ownerHistory": [
+      "0x789Abc..."
+    ],
+    "maintenanceHash": "QmMaintHash456...",
+    "status": "active"
+  }
+]
