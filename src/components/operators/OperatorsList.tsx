@@ -153,7 +153,7 @@ useEffect(() => {
                     <div className="flex items-center justify-end gap-1">
                       <Award size={14} className="text-green-600" />
                       <span className="font-semibold text-green-700">
-                        {operator.reputationBalance.toLocaleString()}
+                        {(Number(operator.reputationBalance) / 1000000000000000000).toLocaleString()}
                       </span>
                     </div>
                   </TableCell>

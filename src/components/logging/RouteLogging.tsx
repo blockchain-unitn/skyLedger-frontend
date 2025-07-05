@@ -11,7 +11,7 @@ import { RouteLoggings } from '@/types/apiTypes';
 
 const statusLabels: Record<number, string> = {
   0: 'Normal',
-  1: 'Active',
+  1: 'Deviated',
 };
 
 const statusColors: Record<number, string> = {
@@ -131,12 +131,8 @@ const totalCount = routeLogs.length;
               onChange={e => setStatusFilter(e.target.value)}
               className="border rounded px-3 py-2"
             >
-              <option value="all">All Status</option>
-              <option value="0">Pending</option>
-              <option value="1">Active</option>
-              <option value="2">Completed</option>
-              <option value="3">Deviated</option>
-              <option value="4">Emergency</option>
+              <option value="0">Normal</option>
+              <option value="1">Deviated</option>
             </select>
           </div>
         </CardContent>

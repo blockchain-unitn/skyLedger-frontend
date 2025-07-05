@@ -236,7 +236,7 @@ const alertsLast24h = alerts.filter(alert => alert.timestamp >= last24hTimestamp
               <div key={index} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
                 <div className="flex flex-row items-center gap-2">
                   <AlertTriangle className="text-red-500" size={18} />
-                  <p className="font-medium text-slate-900">{alert.droneID}</p>
+                  <p className="font-medium text-slate-900">ID: {alert.droneID}</p>
                 </div>
                 <div>
                   <p className="text-sm text-slate-600">

@@ -113,7 +113,7 @@ export const UTMMap = () => {
       <MapContainer
         center={center}
         zoom={zoom}
-        style={{ height: 400, width: '100%' }}
+        style={{ height: 400, width: 600 }}
       >
         <TileLayer
           attribution='&copy; OpenStreetMap contributors'

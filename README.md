@@ -1,73 +1,34 @@
-# Welcome to your Lovable project
+# SkyLedger Dashboard
 
-## Project info
+This frontend provides an advanced interface for monitoring and managing blockchain-certified drones within an Unmanned Traffic Management (UTM) system. 
+The application includes:
 
-**URL**: https://lovable.dev/projects/172070d6-df91-4def-8dfd-7f6023f7a20a
+- Certified drone display — View detailed information about drones (model, type, permissions, owner history, certificates, authorized zones).
 
-## How can I edit this code?
+- UTM map — Visualize planned routes, authorized and restricted zones using an interactive map (Mapbox / Leaflet / CesiumJS).
 
-There are several ways of editing your application.
+- Live alerts and violation tracking — Receive real-time alerts for zone or route violations, with tools to view, acknowledge, and trace incidents.
 
-**Use Lovable**
+- Flight tracking — Display active drones and their real-time routes with live GPS tracking.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/172070d6-df91-4def-8dfd-7f6023f7a20a) and start prompting.
+The frontend is responsive (desktop/mobile) and includes live notifications (WebSocket / Push), filters, and export tools for easy management and analysis of drone operations.
 
-Changes made via Lovable will be committed automatically to this repo.
+## URL
 
-**Use your preferred IDE**
+You can use directly this link: https://avalanche-sky-guardian.lovable.app/
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## OR MANUAL INSTALLATION
 
 Follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/blockchain-unitn/skyLedger-frontend.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd skyLedger-frontend
 
-# Step 3: Install the necessary dependencies.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/172070d6-df91-4def-8dfd-7f6023f7a20a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

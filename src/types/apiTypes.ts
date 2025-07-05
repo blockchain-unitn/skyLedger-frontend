@@ -42,7 +42,7 @@ export interface Alert {
 export interface Operator {
   address: string;
   registered: boolean;
-  reputationBalance: number;
+  reputationBalance: string;
 }
 
 export interface Boundary {
