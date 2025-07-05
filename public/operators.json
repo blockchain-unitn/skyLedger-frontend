@@ -1,0 +1,48 @@
+{
+  "operators": [
+    {
+      "address": "0xAbC1234567890defABC1234567890DEFabc12345",
+      "registered": true,
+      "reputationBalance": 1000
+    },
+    {
+      "address": "0xDef9876543210abcDEF9876543210ABCdef98765",
+      "registered": true,
+      "reputationBalance": 450
+    },
+    {
+      "address": "0x1234567890abcdef1234567890ABCDEF12345678",
+      "registered": false,
+      "reputationBalance": 0
+    }
+  ],
+  "owner": {
+    "address": "0xOwnerAddress000000000000000000000000000000",
+    "tokenBalance": 500000,
+    "isOwner": true
+  },
+  "admins": [
+    "0xAdminAddress111111111111111111111111111111",
+    "0xAdminAddress222222222222222222222222222222"
+  ],
+  "events": [
+    {
+      "event": "OperatorRegistered",
+      "operator": "0xAbC1234567890defABC1234567890DEFabc12345",
+      "timestamp": 1688524800
+    },
+    {
+      "event": "TokensSpent",
+      "operator": "0xAbC1234567890defABC1234567890DEFabc12345",
+      "amount": "1000000000000000000",
+      "timestamp": 1688524850
+    },
+    {
+      "event": "OperatorPenalized",
+      "operator": "0xDef9876543210abcDEF9876543210ABCdef98765",
+      "penalty": 50,
+      "penalizer": "0xAdminAddress111111111111111111111111111111",
+      "timestamp": 1688524900
+    }
+  ]
+}
