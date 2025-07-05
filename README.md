@@ -13,9 +13,11 @@ The application includes:
 
 The frontend is responsive (desktop/mobile) and includes live notifications (WebSocket / Push), filters, and export tools for easy management and analysis of drone operations.
 
+
 ## URL
 
-You can use directly this link: https://avalanche-sky-guardian.lovable.app/
+You can open directly this link: https://avalanche-sky-guardian.lovable.app/
+
 
 ## OR MANUAL INSTALLATION
 
@@ -31,4 +33,5 @@ npm i
 npm run dev
 ```
 
+and visit the URL: http://localhost:8080
 
