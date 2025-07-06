@@ -16,7 +16,7 @@ The frontend is responsive (desktop/mobile) and includes live notifications (Web
 
 ## URL
 
-You can open directly this link: https://avalanche-sky-guardian.lovable.app/
+You can open directly this link: https://skyledger-frontend.netlify.app/
 
 
 ## OR MANUAL INSTALLATION
